@@ -1,10 +1,11 @@
+import isEqual from "fast-deep-equal";
+
 const I = <T>(x: T): T => x;
 const K =
   <T, U>(x: T) =>
   (_?: U): T =>
     x;
 const call0 = <R>(f: () => R): R => f();
-const isEqual = (a: any, b: any) => a === b;
 
 type Nil = null | undefined;
 type ToRecordKey<T> = T extends boolean

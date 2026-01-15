@@ -1,6 +1,6 @@
 {
   "name": "@grahlnn/matchable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ergonomic matchable helpers for enums, unions, and objects.",
   "type": "module",
   "license": "MIT",
@@ -21,5 +21,8 @@
   },
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fast-deep-equal": "^3.1.3"
   }
 }
